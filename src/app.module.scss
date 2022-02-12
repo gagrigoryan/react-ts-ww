@@ -1,0 +1,15 @@
+.matrixWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  grid-gap: 20px;
+}
+
+.matrixBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  font-weight: 600;
+  background-color: rgba(aqua, 0.4);
+}
